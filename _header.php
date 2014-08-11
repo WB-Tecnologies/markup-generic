@@ -23,7 +23,7 @@ $projectTitle = "Generic Project";
     <div class="l-restrictor">
         <nav class="header-nav">
             <ul class="header-nav_list">
-                <li class="header-nav_item"><a href="/" class="header-nav_link">Index</a>
+                <li class="header-nav_item"><a href="index.html" class="header-nav_link">Index</a>
                 <li class="header-nav_item"><a href="home.html" class="header-nav_link">Home</a>
                 <li class="header-nav_item"><a href="about.html" class="header-nav_link">About</a>
                 <li class="header-nav_item"><a href="contacts.html" class="header-nav_link">Contacts</a>
