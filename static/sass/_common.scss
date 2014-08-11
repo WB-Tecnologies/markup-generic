@@ -1,0 +1,36 @@
+/* Colors */
+$colorBlack: #333;
+$colorGray: #999;
+$colorBlue: #009;
+$colorRed: #900;
+
+/* Widths */
+$widthFull: 1180px;
+$widthMobile: 630px;
+$moduleGutter:percentage(20px/$widthFull);
+$module3:percentage(280px/$widthFull);
+$module4:percentage(380px/$widthFull);
+$module6: percentage(580px/$widthFull);
+$module8:percentage(780px/$widthFull);
+$module9:percentage(880px/$widthFull);
+
+/* Fonts */
+@include font-face("Font", "fontfilename");
+
+/*  Common */
+body {color:$colorBlack;font-family:"Font", sans-serif;font-size:16px;line-height:1.4;}
+button,
+input,
+select,
+textarea {color:$colorBlack;font-family:"Font", sans-serif;font-size:16px;line-height:1.4;}
+a {color:$colorBlue;transition: all 100ms ease;}
+a:hover {color:$colorRed !important;text-decoration:none;transition:none;}
+h1 {margin:1em 0;font-size:40px;line-height:54px;font-weight:bold;}
+h2 {margin:1em 0;font-size:36px;line-height:40px;font-weight:bold;}
+h3 {margin:1em 0;font-size:24px;line-height:32px;font-weight:bold;}
+
+/* Grid */
+.l-restrictor {padding: 0 percentage(50px/$widthFull);max-width:$widthFull;margin: 0 auto;}
+@media only screen and (min-width:1280px) {
+    .l-restrictor {padding: 0 50px;}
+}

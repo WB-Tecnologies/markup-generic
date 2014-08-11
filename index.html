@@ -1,0 +1,29 @@
+<?php
+$title = "Index";
+include("_header.php"); ?>
+
+<style>
+.status {margin:1em;}
+.status_item__done,
+.status_item__done a {color:#3a3;}
+.status_item__issues,
+.status_item__issues a {color:#aa3;}
+.status_item__work,
+.status_item__work a {color:#aaa;}
+.status_production {display:none;}
+.status_production:before {content:"(production)"}
+.status_item:hover > .status_production {display:inline-block;}
+</style>
+
+<section class="l-content">
+    <div class="l-restrictor">
+        <h1>Index</h1>
+        <ul class="status">
+            <li class="status_item status_item__done"><a href="home.html">Home page</a> <a href="#" class="status_production"></a>
+            <li class="status_item status_item__issues"><a href="about.html">About page</a> <a href="#" class="status_production"></a>
+            <li class="status_item status_item__work"><a href="contacts.html">Contacts page</a> <a href="#" class="status_production"></a>
+        </ul>
+    </div>
+</section>
+
+<?php include("_footer.php"); ?>
