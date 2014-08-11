@@ -73,7 +73,7 @@ h2 { margin: 1em 0; font-size: 36px; line-height: 40px; font-weight: bold; }
 h3 { margin: 1em 0; font-size: 24px; line-height: 32px; font-weight: bold; }
 
 /* Grid */
-.l-restrictor { padding: 0 4.23729%; max-width: 1180px; margin: 0 auto; }
+.l-restrictor { padding: 0 4.2372881356%; max-width: 1180px; margin: 0 auto; }
 
 @media only screen and (min-width: 1280px) { .l-restrictor { padding: 0 50px; } }
 /* Blocks */
