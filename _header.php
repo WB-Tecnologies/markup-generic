@@ -11,10 +11,10 @@ $projectTitle = "Generic Project";
 <meta charset="utf-8">
 <title><?= $title ? $title. " | " . $projectTitle : $projectTitle ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" sizes="16x16" href="favicon.ico">
 <link rel="stylesheet" href="static/css/<?= $projectName ?>.all.css">
 <link rel="stylesheet" href="static/css/<?= $projectName ?>.print.css" media="print">
 <!--[if IE]><link rel="stylesheet" type="text/css" href="static/css/<?= $projectName ?>.ie.css"><![endif]-->
+<link rel="icon" sizes="16x16" href="favicon.ico">
 <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
 </head>
